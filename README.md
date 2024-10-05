@@ -18,12 +18,12 @@ summarily, the steps required to install and setup the required environment to r
    - windows installation (https://docs.anaconda.com/anaconda/install/windows/)
    - macOS install (https://docs.anaconda.com/anaconda/install/mac-os/)
    - linux install (https://docs.anaconda.com/anaconda/install/linux/)
-   - after you install anaconda3, you will have several programs such as the anaconda prompt and anaconda navigator.  when you select and run the anaconda prompt, it will open a command window with '(base)' on the left, indicating that you are now using the 'base' conda environment with the default set of python3 packages. at that command line you can run the single command (in step 3 below) to set up a second environment that will contain the necessary packages or just install each of the required packages manually from the command line. 
+   - after you install anaconda3, you will have several programs such as the anaconda prompt and anaconda navigator.  when you select and run the anaconda prompt, it will open a command window with `(base)` on the left, indicating that you are now using the `base` conda environment with the default set of python3 packages. at that command line you can run the single command (in step 3 below) to set up a second environment that will contain the necessary packages or just install each of the required packages manually from the command line. 
 2. obtain necessary files (using either of these options below)
-   - click in the upper right to download and put all three files 'nim-demo.ipynb', 'config.py' and 'nv-nim-demo.yaml' into the same folder, or
-   - run command 'git clone https://github.com/kamccall/nim-endpoint-samples/'
+   - click in the upper right to download and put all three files `nim-demo.ipynb`, `config.py` and `nv-nim-demo.yaml` into the same folder, or
+   - run command `git clone https://github.com/kamccall/nim-endpoint-samples/`
 3. create a new anaconda environment
-   - run command 'command here' 
+   - run command `command here` 
 
 
 
