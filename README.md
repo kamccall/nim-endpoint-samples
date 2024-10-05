@@ -27,7 +27,8 @@ summarily, the steps required to install and setup the required environment to r
    - run command `conda activate nim_demo` (makes the new `nim_demo` environment the active anaconda environment) 
 4. obtain an nvidia NGC API key
    - login to (https://catalog.ngc.nvidia.com/)
-   - in the upper right corner, click on <your login name>, and then select `Setup` from the menu
+   - in the upper right corner, click on your login name, and select `NV-Developer` as the organization name (or ensure it is already set to that)
+   - in the upper right corner, select `Setup` from the menu
    - in the upper section **Keys/Secrets**, click on the green box `Generate API Key`
    - in the upper right, click on the green box `+ Generate API Key`
    - after you **CONFIRM** that you wish to generate a key, immediately **COPY** and **SAVE** that key somewhere! (text file, onenote, somewhere!)
@@ -35,10 +36,27 @@ summarily, the steps required to install and setup the required environment to r
    - **SAVE** the `config.py` file and close it
 
 ## models supported in current version
-
-
+included models so far:
+* meta llama-3.1-70b
+* meta llama-3.1-405b
+* nvidia nemotron-4-340b
+* microsoft phi-3.5-4b
+* meta llama-3.2-3b-instruct
+* meta llama-3.2-1b-instruct
+* nvidia mistral-nemo-12b-instruct 
+* nvidia vila
+* microsoft kosmos-2
+* microsoft florence-2
+* nvidia nv-grounding-dino
+* nvidia clip
+* stabilityAI stable-diffusion-xl
+* nvidia embedqa-e5-v5
+* nvidia usdcode-llama3-70b-instruct
+* nvidia usdsearch
+* hive ai-generated-image-detection 
 
 ## common errors encountered
-
+**401**: usually an authentication error against the NGC repository.  ***TODO add details and guidance***
+**500**: often a malformed payload to a model. ***TODO add details and guidance***
 
 
