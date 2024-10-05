@@ -56,8 +56,8 @@ included models so far:  *TODO add details and guidance*
 * hive ai-generated-image-detection 
 
 ## common errors encountered
-**401**: usually an authentication error against the NGC repository.  *TODO add details and guidance*
+**401**: usually an authentication error against the NGC repository.  *TODO add more detail*
 
-**500**: often a malformed payload to a model. *TODO add details and guidance*
+**500**: often a malformed payload to a model. *TODO add more detail*
 
 
