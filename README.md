@@ -36,7 +36,7 @@ summarily, the steps required to install and setup the required environment to r
    - **SAVE** the `config.py` file and close it
 
 ## models supported in current version
-included models so far:  *TODO add details and guidance*
+included models so far:  *TODO add detail*
 * meta llama-3.1-70b
 * meta llama-3.1-405b
 * nvidia nemotron-4-340b
