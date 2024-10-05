@@ -1,4 +1,4 @@
-## nim-endpoint-samples
+# nim-endpoint-samples
 short and simple code examples that access various nvidia-hosted NIMs in NGC from a jupyter notebook
 
 this readme covers three primary topics:
@@ -6,5 +6,15 @@ this readme covers three primary topics:
 * enumeration and explanation of models included
 * common errors encountered
 
-# client setup instructions
+## client setup instructions
+
+
+
+## models supported in current version
+
+
+
+## common errors encountered
+
+
 
